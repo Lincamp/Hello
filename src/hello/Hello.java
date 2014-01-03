@@ -10,7 +10,7 @@ package hello;
  */
 public class Hello {
 
-    // just a test comment 1
+    // just a test comment 2
     private void printout()
     {
         int i;

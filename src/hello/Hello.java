@@ -54,11 +54,27 @@ public class Hello {
         
         System.out.println(ani3 == ani2);
         
+        Animal ani6 = new Animal();
+        ani6.setAge(7);
+        System.out.println(ani3 == ani6);        
+        
         animals.add(ani1);
         animals.add(ani2);
         
+        ani6 = animals.get(0);
+        System.out.println(ani3 == ani6);
+        
         System.out.println(ani3 == animals.get(1));
         Animal ani4 = animals.get(1);
+        
+        int a1 = 3;
+        int a2 = 5;
+        a2 = a1;
+        System.out.println(a1 == a2);  //=
+        System.out.println(a2);//5
+        a2 = 6;
+        System.out.println(a1);//5
+        System.out.println(a1 == a2);//!       
     }    
 }
 

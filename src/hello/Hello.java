@@ -11,27 +11,13 @@ import java.util.ArrayList;
  * @author wxue
  */
 public class Hello {
-
-    // just a test comment 2
-    private void printout()
-    {
-        int i;
-        for(i = 0; i < 5; i++)
-        {    
-            System.out.println("Hello, Hello");
-        }
-    }
-    
+   
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int i;
-        for(i = 0; i < 5; i++)
-        {    
-            System.out.println("Hello, Kitty");
-        }
+
         Hello hello = new Hello();
         hello.printout();
         
@@ -78,16 +64,24 @@ public class Hello {
     }    
 }
 
-class Animal {
-    private int m_age;    
-
-    public void setAge(int age) {
-        this.m_age = age;
-    }
+class abstract Animal {
+    int m_age;        
     
+ void setAge(int age) {
+        this.m_age = age;
+    }    
     // just a test comment 2
     void printAge()
     {
         System.out.println("Age : " + m_age);
-    }
+    }    
 }
+
+ class Dog extends Animal {
+    
+}
+
+ class Cat extends Animal{
+    
+}
+

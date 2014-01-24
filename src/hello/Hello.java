@@ -64,7 +64,7 @@ public class Hello {
     }    
 }
 
-class abstract Animal {
+class Animal {
     int m_age;        
     
  void setAge(int age) {

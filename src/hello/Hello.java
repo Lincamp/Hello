@@ -19,7 +19,7 @@ public class Hello {
         // TODO code application logic here
 
         Hello hello = new Hello();
-        hello.printout();
+//        hello.printout();
         
         ArrayList<Animal> animals = new ArrayList<Animal>();
         
